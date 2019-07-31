@@ -1,72 +1,72 @@
-<div class="sidebar" data-color="blue">
+<div class="sidebar" data-color="red">
     <!--
         Tip 1: you can change the color of the sidebar using: data-color="blue | azure | green | orange | red | purple"
         Tip 2: you can also add an image using data-image tag
     -->
     <div class="sidebar-wrapper">
         <div class="logo">
-            <a href="" class="simple-text">
-                Analisis Sentimen Twitter
-            </a>
+            <center>
+            <img class="img-responsive" src="{{ URL('assets/img/icon.png') }}" alt="Aplikasi Online" style="height: 100px;" /></center>
         </div>
 
         <ul class="nav">
             <li class="active">
                 <a href="{{ URL('/') }}">
-                    <i class="pe-7s-graph"></i>
-                    <p>Beranda</p>
-                </a>
-            </li>
-            <li>
-                <a href="{{ URL('tweet') }}">
-                    <i class="pe-7s-server"></i>
-                    <p>Daftar Tweet</p>
-                </a>
-            </li>
-            <li>
-                <a href="{{ URL('tweet/preprocessing') }}">
-                    <i class="pe-7s-news-paper"></i>
-                    <small>Daftar Preprocessing</small>
+                    <i class="pe-7s-home"></i>
+                    <p>HOME</p>
                 </a>
             </li>
             <li>
                 <a href="{{ URL('tweet/unduh') }}">
                     <i class="pe-7s-download"></i>
-                    <p>Unduh tweet</p>
+                    <p>START CRAWLING</p>
+                </a>
+            </li>
+            <li>
+                <a href="{{ URL('tweet') }}">
+                    <i class="pe-7s-chat"></i>
+                    <p>RESULT LIST</p>
                 </a>
             </li>
             <li>
                 <a href="{{ URL('preprocessing') }}">
-                    <i class="pe-7s-pen"></i>
-                    <p>Preprocessing</p>
+                    <i class="pe-7s-note"></i>
+                    <p>PREPROCESSING</p>
                 </a>
             </li>
-           <li>
+            <li>
+                <a href="{{ URL('tweet/preprocessing') }}">
+                    <i class="pe-7s-copy-file"></i>
+                    <small>PREPROCESSING LIST</small>
+                </a>
+            </li>
+            <li>
                 <a href="{{ URL('klasifikasi') }}">
                     <i class="pe-7s-graph3"></i>
-                    <p>Analisis</p>
+                    <p>ANALYSIS</p>
                 </a>
             </li>
             
             <li>
                 <a href="{{ URL('training') }}">
                     <i class="pe-7s-note2"></i>
-                    <p>Tweet Training</p>
+                    <p>TWEET TRAINING</p>
                 </a>
             </li>
             <li>
                 <a href="{{ URL('training/add') }}">
                     <i class="pe-7s-eyedropper"></i>
-                    <small>Tambah Tweet Training</small>
+                    <small>ADD TWEET TRAINING</small>
                 </a>
             </li>
+            <!--
             <li>
                 <a href="{{ URL('tentang-aplikasi') }}">
                     <i class="pe-7s-info"></i>
-                    <small>Tentang Aplikasi Sentiment</small>
+                    <small>About</small>
                 </a>
             </li>
-            <!--<li>
+            <li>
                 <a href="table.html">
                     <i class="pe-7s-note2"></i>
                     <p>Table List</p>

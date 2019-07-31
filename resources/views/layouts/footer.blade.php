@@ -22,11 +22,12 @@
                                Blog
                             </a>
                         </li>
-                    </ul> -->
-					<p style="margin-top: 20px;">Analisi Sentimen Twitter Pada Pemilihan Gubernur 2017</p> 
+                    </ul> 
+					<p style="margin-top: 20px;">Twitter Sentiment Analysis</p> 
+                    -->
         </nav>
-        <p class="copyright pull-right">
-            <a href="Tugas Akhir 2016/2017 I Aji Kurniawan I 1011500863">Tugas Akhir Gasal 2016/2017 I Aji Kurniawan I 1011500863</a>
+        <p class="copyright text-center">
+            Aplikasi Online
         </p>
     </div>
 </footer>

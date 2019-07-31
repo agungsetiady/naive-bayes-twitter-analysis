@@ -5,10 +5,11 @@
     <!-- <link rel="icon" type="image/png" href="assets/img/favicon.ico"> -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>Naive Bayes</title>
+    <title>Twitter Sentiment Analysis</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="{{ URL('assets/img/icon.png') }}">
     <!-- Bootstrap core CSS     -->
     <link href="{{ URL('assets/css/bootstrap.min.css') }} " rel="stylesheet" />
     <!-- Animation library for notifications   -->

@@ -8,13 +8,13 @@
             <!-- <p class="category">Here is a subtitle for this table</p> -->
         </div>
         <div class="content table-responsive table-full-width">
-            <table class="table table-hover table-striped">
+            <table class="table table-bordered table-hover table-striped">
                 <thead>
                     <tr>
-                        <th>Username</th>
-                        <th>Tweet</th>
-                        <th>tanggal</th>
-                        <th>Tambah ke tweet training</th>
+                        <th style="width: 15%;">Username</th>
+                        <th style="width: 55%;">Tweet</th>
+                        <th style="width: 15%;">Tanggal</th>
+                        <th style="width: 15%;">Action</th>
                     </tr>
                 </thead>
                 <tbody>

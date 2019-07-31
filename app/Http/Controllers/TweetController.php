@@ -20,7 +20,7 @@ class TweetController extends Controller
 	}
     public function index()
     {	
-    	 return view('contents.daftar_tweet')->with('tweets',DB::table('tweets')->orderBy('date_tweet','DESC')->paginate(10))->with('tweets_training',$this->checkTweetTraining());
+    	 return view('contents.daftar_tweet')->with('tweets',DB::table('tweets')->orderBy('date_tweet','ASC')->paginate(100))->with('tweets_training',$this->checkTweetTraining());
     }
     public function preprocessing()
     {   

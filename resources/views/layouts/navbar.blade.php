@@ -7,7 +7,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Selamat Datang Pada Menu Analisis Sentimen Twitter Calon Gubernur DKI Pada Tahun 2017</a>
+                    <a class="navbar-brand" href="#">Twitter Sentiment Analysis</a>
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-left">
